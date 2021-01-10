@@ -6,9 +6,9 @@ const initialState = {
     items: [],
     loading: false
     //when we fetch data, it could take a few milliseconds
-}
+};
 
-export default function(state = initialState, action) {
+export default function foo(state = initialState, action) {
     switch(action.type) {
         case GET_ITEMS:
             return {
