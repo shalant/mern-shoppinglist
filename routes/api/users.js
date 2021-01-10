@@ -4,14 +4,11 @@ const router = express.Router();
 //User model
 const User = require('../../models/User')
 
-//@route GET require to api/users
+//@route POST api/users
 //@desc register new users
 //@access public
-router.get('/', (req, res) => {
+router.post('/', (req, res) => {
     res.send('register')
 });
-
-
     
-
 module.exports = router;
