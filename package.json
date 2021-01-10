@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "shopping list build with mern stack",
   "main": "server.js",
+  "engines": {
+    "node": "15.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "node server.js",
