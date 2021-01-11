@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 import { GET_ITEMS, ADD_ITEM, DELETE_ITEM, ITEMS_LOADING } from '../actions/types';
 
 
@@ -7,9 +6,9 @@ const initialState = {
     items: [],
     loading: false
     //when we fetch data, it could take a few milliseconds
-}
+};
 
-export default function(state = initialState, action) {
+export default function foo(state = initialState, action) {
     switch(action.type) {
         case GET_ITEMS:
             return {
